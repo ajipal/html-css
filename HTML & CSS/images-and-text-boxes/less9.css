@@ -1,0 +1,126 @@
+.search-button {
+  display: block;
+  margin-bottom: 20px;
+  width: 550px;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+
+.tweet-search {
+  vertical-align: middle;
+  border: none;
+  width: 150px;
+  font-size: 10px;
+}
+
+.tweet {
+  vertical-align: middle;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(37, 145, 222);
+  color: white;
+  font-size: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.add-friend {
+  width: 60px;
+  height: 98px;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 5px;
+  border-style: none;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  margin-right: 5px;
+}
+
+.pic {
+  width: 60px;
+  height: 57px;
+  margin-bottom: 0px;
+}
+
+.name {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.stats {
+  color: gray;
+  font-size: 5px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.friend {
+  background-color: rgb(59, 135, 234);
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.info {
+  padding-left: 2px;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.search-google {
+  margin-top: 0;
+  width: 400px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: 25px;
+}
+
+.google-search {
+  border: none;
+  background-color: rgb(212, 210, 210);
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-left: 4px;
+}
+
+.search-block {
+  display: block;
+}
+.google-page {
+  text-align: center;
+}
+
+.secgoogle-page {
+  text-align: center;
+}
+
+.search-block {
+  text-align: center;
+}

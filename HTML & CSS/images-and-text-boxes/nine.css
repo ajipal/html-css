@@ -1,0 +1,57 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: inline-block;
+  text-align: center;
+  color: red;
+  margin-right: 15px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: green;
+  display: inline-block;
+  text-align: center;
+  color: green;
+  margin-right: 30px;
+}
+
+.service {
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(150, 150, 150);
+  padding-left: 10px;
+  font-family: Arial;
+}
+
+.music {
+  font-family: Arial;
+  display: inline-block;
+  border-style: none;
+  background-color: rgb(48, 48, 48);
+  width: 345px;
+  height: 108px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bot {
+  color: gray;
+  width: 340px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}

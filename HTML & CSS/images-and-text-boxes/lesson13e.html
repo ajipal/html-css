@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      p {
+        margin-bottom: 0;
+        margin-top: 0;
+        font-family: Arial;
+        font-size: 10px;
+      }
+      .gmail {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        border-radius: 2px;
+        width: 280px;
+        padding-left: 15px;
+        margin-left: 20px;
+        margin-top: 20px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+      }
+      
+      .above {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .all-inboxes {
+          display: flex;
+          color: gray;
+          font-weight: bold;
+      }
+
+      .inbox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+
+      .cat {
+        width: 45px;
+        border-radius: 25px;
+      }
+
+      .profile {
+        width: 50px;
+        margin-right: 6px;
+      }
+
+      .first {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2px;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+      }
+      .name {
+        font-weight: bold;
+        font-size: 11px;
+      }
+
+      .time {
+        color: gray;
+      }
+
+      .sub-head {
+        font-weight: bold;
+        margin-bottom: 2px;
+      }
+
+      .description {
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gmail">
+
+      <div class="above">
+        <p class="all-inboxes">ALL INBOXES</p>
+      </div>
+      
+      <div class="inbox">
+        <div class="profile">
+          <img src="cats.jpg" class="cat">
+        </div>
+  
+        <div class="content">
+
+          <div class="first">
+            <p class="name">Chewy Promotions</p>
+            <p class="time">4:58 PM</p>
+          </div>
+          
+          <p class="sub-head">Biggest sales of the year!</p>
+          <p class="description">Hey there! We're writing to tell you about our...</p>
+
+        </div>
+
+      </div>
+
+      <div class="inbox">
+        <div class="profile">
+          <img src="cats.jpg" class="cat">
+        </div>
+  
+        <div class="content">
+
+          <div class="first">
+            <p class="name">Best Buy</p>
+            <p class="time">12:32 PM</p>
+          </div>
+          
+          <p class="sub-head">Your Best Buy eReceipt</p>
+          <p class="description">Thank you for shopping at Best Buy, here is...</p>
+
+        </div>
+
+      </div>
+      
+      <div class="inbox">
+        <div class="profile">
+          <img src="cats.jpg" class="cat">
+        </div>
+  
+        <div class="content">
+
+          <div class="first">
+            <p class="name">Netflix</p>
+            <p class="time">9:00 AM</p>
+          </div>
+          
+          <p class="sub-head">Here's what's coming soon to Netflix</p>
+          <p class="description">Brand new movies and shows, old favorites...</p>
+
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

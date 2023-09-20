@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .profile-grid {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 20px;
+      }
+
+      .one {
+        width: 200px;
+        box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+        vertical-align: top;
+        margin-right: 15px;
+      }
+
+      .profile {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 0px;
+      }
+
+      .name {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 8px;
+        margin-bottom: 5px;
+        margin-left: 8px;
+      }
+
+      .info {
+        display: grid;
+        grid-template-columns: 35px 1fr;
+        align-items: center;
+        margin-left: 8px;
+        margin-bottom: 10px;
+      }
+
+      .prof-moots {
+        width: 28px;
+        height: 28px;
+        border-radius: 14px;
+        vertical-align: middle;
+        margin-right: 4px;
+      }
+
+      .moots {
+        color: rgb(100, 100, 100);
+      }
+
+
+      .button {
+        background-color: rgb(24, 119, 242);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    
+    <div class="profile-grid">
+
+      <div class="one">
+      
+        <img class="profile" src="cats.jpg">        
+        <p class="name">Oliver</p>
+
+        <div class="info">
+          <img class="prof-moots" src="cats.jpg">
+          <p class="moots">2 mutual friends</p>
+        </div>
+
+        <button class="button">Add Friend</button>
+
+      </div>
+
+      <div class="one">
+      
+        <img class="profile" src="cats.jpg">        
+        <p class="name">Mark</p>
+
+        <div class="info">
+          <img class="prof-moots" src="cats.jpg">
+          <p class="moots">2 mutual friends</p>
+        </div>
+
+        <button class="button">Add Friend</button>
+
+      </div>
+
+      <div class="one">
+      
+        <img class="profile" src="cats.jpg">        
+        <p class="name">Mike</p>
+
+        <div class="info">
+          <img class="prof-moots" src="cats.jpg">
+          <p class="moots">2 mutual friends</p>
+        </div>
+
+        <button class="button">Add Friend</button>
+
+      </div>
+
+    </div>
+
+    
+
+  </body>
+</html>
